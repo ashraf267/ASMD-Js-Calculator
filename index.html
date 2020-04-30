@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ASMD Js Calc</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<p>ASMD JavaScript Calculator</p>
+<p id="demo">Addition</p>
+</header>
+<div class="container">
+<form action="#" method="GET" name="myform" onsubmit="return calcFun()">
+<select name="sel" onchange="changeText(this)">
+<option value="addition">+</option>
+<option value="subtraction">-</option>
+<option value="multiplication">*</option>
+<option value="division">/</option>
+</select>
+<label>Enter value</label>
+<input type="number" name="field01" required>
+<input type="number" name="field02" required>
+<br>
+<input type="submit">
+</form>
+<br>
+<p id="output"></p>
+</div>
+<footer>
+<p>Built by Ashraf Otagun</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
